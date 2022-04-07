@@ -1,0 +1,98 @@
+#1.reverse a String
+
+String1="ruby"
+puts String1.reverse
+
+
+#2.concatinating the Multiple String
+
+name="hello"
+concatenated_string=name.concat("world")
+puts concatenated_string
+
+#3.Replace character in a string
+
+string="development"
+puts string.gsub("d","m")
+
+nam="secular country"
+puts nam.gsub("state","country")
+
+
+#4.replace all characters in a string
+input="INDIA"
+puts " original string is :: #{name3}"
+puts " replace string is :: #{name3.replace("KARNATAKA")}"
+
+
+#5.convert all letters of string to lower case
+String="racKeT"
+puts String.downcase
+
+
+#6.convert all letters of string to upper case
+
+string="racKeT"
+puts string.upcase
+
+
+
+#7.capitalize the first character of the string 
+string="helloworld"
+puts string.capitalize
+
+
+#8.remove white spaces 
+str="   hello world    "
+puts str.strip
+puts str
+
+
+#9.comapre the  string
+
+str="India"
+puts str.eql?("India")
+puts str.eql?("INDIA")
+
+
+#10.get the character index in string
+name="priya"
+puts name.index("n")
+
+
+#11.extracting character from string
+hai="hello"
+puts hai[3]
+
+#12.covert the string array to char array
+sentance="welcome to cognitive cloud"
+newsentance=sentance.split("")
+puts sentance
+puts newsentance.class
+
+
+#13.anagrams
+s1="w e b"
+s2="e b w"
+s3=s1.split(" ")
+s4=s2.split(" ")
+if s1.length==s2.length && s3.sort == s4.sort
+    puts " The #{s1} and #{s2} are anagram with each other"
+else
+    puts"These are not angaram with each other"
+end
+
+#14.palidrome
+A="radar"
+B=A.reverse
+puts B
+if nameB.eql?("#{nameA}")
+    puts " The String #{nameA} is a palidrome"
+else
+    puts "it is not a palidrome"
+end
+
+#15.string to numeric
+puts a.to_i # 2
+puts a.to_f # 2.0
+puts a.to_r # 2/1
